@@ -1,0 +1,141 @@
+/*
+
+Xilinx Vitis v2021.2.0 (64-bit) [Major: 2021, Minor: 2]
+SW Build 3363750 on 2021-10-16-13:10:08
+
+Process ID (PID): 55358
+License: Customer
+
+Current time: 	Tue May 10 14:14:35 JST 2022
+Time zone: 	Japan Standard Time (Asia/Tokyo)
+
+OS: CentOS Linux release 7.9.2009 (Core)
+OS Version: 3.10.0-1160.59.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 24
+
+Display: localhost:10.0
+Screen size: 1536x1024
+Available screens: 2
+Available disk space: 127 GB
+
+Java version: 	11.0.11 64-bit
+Java home: 	/mnt/dsk1/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9
+Java executable location: 	/mnt/dsk1/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 1,024 MB
+
+Java library paths: /tools/Xilinx/Vitis/2021.2/tps/lnx64/javafx-sdk-11.0.2/lib:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o/Default:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o:/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/lib/:/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/lib//server:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o/Default:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o:/tools/Xilinx/Vitis/2021.2/tps/lnx64/python-3.8.3/lib:/tools/Xilinx/Vitis/2021.2/aietools/lib/lnx64.o:/opt/xilinx/xrt/lib::/tools/Xilinx/Vitis/2021.2/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /mnt/dsk1/tools/Xilinx/Vitis/2021.2/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar
+LD_LIBRARY_PATH: /tools/Xilinx/Vitis
+
+User name: 	smarumot
+User home directory: /home/smarumot
+User working directory: /home/smarumot/vitis
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /mnt/dsk1/tools/Xilinx/Vitis
+HDI_APPROOT: /tools/Xilinx/Vitis/2021.2
+RDI_DATADIR: /mnt/dsk1/tools/Xilinx/Vitis/2021.2/data
+RDI_BINDIR: /mnt/dsk1/tools/Xilinx/Vitis/2021.2/bin
+
+Vitis preferences directory: /home/smarumot/.Xilinx/Vitis/2021.2/
+Vitis workspace directory: /home/smarumot/workspace
+Vitis workspace log file location: /home/smarumot/workspace/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+XILINX_DSP: 
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vitis/2021.2
+XILINX_SDK: /tools/Xilinx/Vitis/2021.2
+XILINX_VITIS: /tools/Xilinx/Vitis/2021.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2021.2
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2021.2
+XILINX_XRT: /opt/xilinx/xrt
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+selectButton("Next", "New Application Project (Create a New Application Project)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Platform)", "NewAppProjectWizard", "Button.NEXT");
+setTextField("vadd_app", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Text.APPLICATION_PROJECT_NAME");
+selectButton("Next", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Back", "New Application Project (Templates)", "NewAppProjectWizard", "Button.BACK");
+selectTable("Create new", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Table");
+selectButton("Next", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.NEXT");
+selectTreeTable("Simple Vector Addition", "Acceleration templates with PL and AIE accelerators", EventType.DOUBLE_CLICK, "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectButton("Vitis IDE Examples", "New Application Project (Templates)", "NewAppProjectWizard", "Button.VITIS_IDE_EXAMPLES");
+selectButton("Download", "Vitis IDE Examples", "ExampleDownloadManagerDialog", "Button.DOWNLOAD");
+selectButton("OK", "Vitis IDE Examples", "ExampleDownloadManagerDialog", "Button.OK");
+selectTreeTable("Simple Vector Addition", "Acceleration templates with PL and AIE accelerators", EventType.DOUBLE_CLICK, "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectTreeTable("Hello World", "Acceleration templates with PL and AIE accelerators", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectTreeTable("OpenCL Kernel Examples", "Acceleration templates with PL and AIE accelerators", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectTreeTable("Array Block and Cyclic Partitioning", "Acceleration templates with PL and AIE accelerators > OpenCL Kernel Examples", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectTreeTable("Simple Vector Addition", "Acceleration templates with PL and AIE accelerators", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectButton("Finish", "New Application Project (Templates)", "NewAppProjectWizard", "Button.FINISH");
+activateView("Welcome", "ViewIntroAdapterPart", "CTabItem.WELCOME");
+selectTreeTable("Hardware", "vadd_app_system > vadd_app_system_hw_link", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "SDXAssistantView", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("vadd_app_system", "vadd_app_system > vadd_app_system_hw_link", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("vadd_app", "vadd_app_system", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("vadd_app_system", "vadd_app_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarMenuButton("Run", "vadd_app_system", "WorkbenchWindow", "ToolItem.RUN");
+selectMenuItem("Run Configurations", "Explorer", "WorkbenchWindow", "MenuItem.RUN_CONFIGURATIONS");
+selectButton("Run", "Run Configurations", "LaunchConfigurationsDialog", "Button.RUN");
+selectButton("OK", "Error", "ErrorDialog", "Button.OK");
+selectToolBarMenuButton("Run", "vadd_app_system", "WorkbenchWindow", "ToolItem.RUN");
+selectMenuItem("Run As", "Explorer", "WorkbenchWindow", "MenuItem.RUN_AS");
+selectMenuItem("1 Launch Hardware", "vadd_app_system", "WorkbenchWindow", "MenuItem.1_LAUNCH_HARDWARE");
+selectButton("OK", "Error", "ErrorDialog", "Button.OK");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("vadd_app", "vadd_app_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("vadd_app_system", "vadd_app_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarMenuButton("Build Hardware for project vadd_app_system", "vadd_app_system", "WorkbenchWindow", "ToolItem.BUILD_HARDWARE_FOR");
+selectToolBarMenuButton("Run", "vadd_app_system", "WorkbenchWindow", "ToolItem.RUN");
+selectToolBarButton("Run", "vadd_app_system", "WorkbenchWindow", "ToolItem.RUN");
+selectButton("Details", "Error", "ErrorDialog", "Button.DETAILS");
+selectButton("OK", "Error", "ErrorDialog", "Button.OK");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("Hardware", "vadd_app_system > vadd_app", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "SDXAssistantView", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectToolBarMenuButton("Run", "vadd_app", "WorkbenchWindow", "ToolItem.RUN");
+selectMenuItem("Run Configurations", "Assistant", "WorkbenchWindow", "MenuItem.RUN_CONFIGURATIONS");
+selectButton("Run", "Run Configurations", "LaunchConfigurationsDialog", "Button.RUN");
+selectToolBarButton("Run", "vadd_app", "WorkbenchWindow", "ToolItem.RUN");
+selectToolBarMenuButton("Run", "vadd_app", "WorkbenchWindow", "ToolItem.RUN");
+selectMenuItem("Run Configurations", "Assistant", "WorkbenchWindow", "MenuItem.RUN_CONFIGURATIONS");
+selectButton("Run", "Run Configurations", "LaunchConfigurationsDialog", "Button.RUN");
+activateView("Problems", "ProblemsView", "CTabItem.PROBLEMS");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+activateView("Vitis Log", "SdkLogView", "CTabItem.VITIS_LOG");
+activateView("Guidance", "SDXDrcView", "CTabItem.GUIDANCE");
+activateView("Vitis Log", "SDKLogView", "CTabItem.VITIS_LOG");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Hardware", "vadd_app_system > vadd_app", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "WorkbenchWindow", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectToolBarMenuButton("Run", "vadd_app", "WorkbenchWindow", "ToolItem.RUN");
+selectMenuItem("Run Configurations", "Console", "WorkbenchWindow", "MenuItem.RUN_CONFIGURATIONS");
+selectButton("Run", "Run Configurations", "LaunchConfigurationsDialog", "Button.RUN");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("Hardware", "vadd_app_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "SDXAssistantView", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectToolBarMenuButton("Run", "vadd_app", "WorkbenchWindow", "ToolItem.RUN");
+selectMenuItem("Run Configurations", "Console", "WorkbenchWindow", "MenuItem.RUN_CONFIGURATIONS");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectButton("Run", "Run Configurations", "LaunchConfigurationsDialog", "Button.RUN");
+selectButton("Exit", "Confirm Exit", "MessageDialogWithToggle", "Button.EXIT");
+// Exiting Xilinx Vitis with a status code '0' at 5/10/22, 6:22:48 PM JST
+// Elapsed time: 04:08:14
+

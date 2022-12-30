@@ -1,0 +1,16 @@
+Mon May 16 17:02:58 2022: Server was asked to start on port: '35736'
+Mon May 16 17:02:58 2022: Server is using token UUID: 'ef7c9155-be1d-41c8-a68f-e44999d294e4'
+Mon May 16 17:02:58 2022: Attempting to start server on port '35736'
+Mon May 16 17:02:58 2022: XRC main fifo: created main fifo '/tmp/xrcmainef7c9155-be1d-41c8-a68f-e44999d294e4', fd read = 11
+Mon May 16 17:02:58 2022: Running Rule Check Server
+Mon May 16 17:02:58 2022: Version 1.6.1
+Mon May 16 17:02:58 2022: Rule Check Server: Accepted socket connection from client
+Mon May 16 17:02:58 2022: EXCHANGE_TOKEN received, server token: ef7c9155-be1d-41c8-a68f-e44999d294e4, passed token: ef7c9155-be1d-41c8-a68f-e44999d294e4
+Mon May 16 17:04:05 2022: SESSION_MGR: creating session with session uuid: '360b8eca-ea7d-4663-a54f-862214ac0517' and name 'vadd_app_system-Default_vadd_app'
+Mon May 16 17:05:34 2022: SESSION_MGR: closing session for UUID '360b8eca-ea7d-4663-a54f-862214ac0517' with name 'vadd_app_system-Default_vadd_app'
+Mon May 16 17:10:43 2022: STOP_SERVER received, server token: ef7c9155-be1d-41c8-a68f-e44999d294e4, passed token: ef7c9155-be1d-41c8-a68f-e44999d294e4
+Mon May 16 17:10:43 2022: Socket received request to stop server.
+Mon May 16 17:10:43 2022: SERVER: destructor for server bound to port 35736
+Mon May 16 17:10:43 2022: XRC main fifo: Good unlink of /tmp/xrcmainef7c9155-be1d-41c8-a68f-e44999d294e4
+Mon May 16 17:10:43 2022: Server exiting with status 0.
+Mon May 16 17:10:43 2022: Closing log file.

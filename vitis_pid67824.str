@@ -1,0 +1,72 @@
+/*
+
+Xilinx Vitis v2021.2.0 (64-bit) [Major: 2021, Minor: 2]
+SW Build 3363750 on 2021-10-16-13:10:08
+
+Process ID (PID): 67824
+License: Customer
+
+Current time: 	Mon May 16 17:03:02 JST 2022
+Time zone: 	Japan Standard Time (Asia/Tokyo)
+
+OS: CentOS Linux release 7.9.2009 (Core)
+OS Version: 3.10.0-1160.59.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 24
+
+Display: localhost:10.0
+Screen size: 1536x1024
+Available screens: 2
+Available disk space: 127 GB
+
+Java version: 	11.0.11 64-bit
+Java home: 	/mnt/dsk1/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9
+Java executable location: 	/mnt/dsk1/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 1,024 MB
+
+Java library paths: /tools/Xilinx/Vitis/2021.2/tps/lnx64/javafx-sdk-11.0.2/lib:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o/Default:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o:/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/lib/:/tools/Xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/lib//server:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o/Default:/tools/Xilinx/Vitis/2021.2/lib/lnx64.o:/tools/Xilinx/Vitis/2021.2/tps/lnx64/python-3.8.3/lib:/tools/Xilinx/Vitis/2021.2/aietools/lib/lnx64.o:/opt/xilinx/xrt/lib::/tools/Xilinx/Vitis/2021.2/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /mnt/dsk1/tools/Xilinx/Vitis/2021.2/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar
+LD_LIBRARY_PATH: /tools/Xilinx/Vitis
+
+User name: 	smarumot
+User home directory: /home/smarumot
+User working directory: /home/smarumot/vitis
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /mnt/dsk1/tools/Xilinx/Vitis
+HDI_APPROOT: /tools/Xilinx/Vitis/2021.2
+RDI_DATADIR: /mnt/dsk1/tools/Xilinx/Vitis/2021.2/data
+RDI_BINDIR: /mnt/dsk1/tools/Xilinx/Vitis/2021.2/bin
+
+Vitis preferences directory: /home/smarumot/.Xilinx/Vitis/2021.2/
+Vitis workspace directory: /home/smarumot/workspace
+Vitis workspace log file location: /home/smarumot/workspace/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+XILINX_DSP: 
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vitis/2021.2
+XILINX_SDK: /tools/Xilinx/Vitis/2021.2
+XILINX_VITIS: /tools/Xilinx/Vitis/2021.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2021.2
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2021.2
+XILINX_XRT: /opt/xilinx/xrt
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+selectToolBarMenuButton("Run", "vadd_app", "WorkbenchWindow", "ToolItem.RUN");
+selectToolBarButton("Run", "vadd_app", "WorkbenchWindow", "ToolItem.RUN");
+selectButton("Exit", "Confirm Exit", "MessageDialogWithToggle", "Button.EXIT");
+// Exiting Xilinx Vitis with a status code '0' at 5/16/22, 5:10:43 PM JST
+// Elapsed time: 00:07:43
+
